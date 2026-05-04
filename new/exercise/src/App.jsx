@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Footer from './components/Footer'
 import Note from './components/Note'
 import Notification from './components/Notification'
-import noteService from './services/notes'
+import noteService from './Services/Notes'
 
 const App = () => {
   const [notes, setNotes] = useState([])
